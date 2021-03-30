@@ -37,7 +37,8 @@
     
     const snakeboard_ctx = snakeboard.getContext("2d");
    
-    main();function main() {
+    main();
+    function main() {
         setTimeout(function onTick() {
         clear_board();
         move_snake();
@@ -79,7 +80,7 @@ function move_snake() {
 
 const head = {x: snake[0].x + dx, y: snake[0].y + dy};
 
-snake.unshift(head);
+ snake.unshift(head);
 snake.pop();
 }
 
