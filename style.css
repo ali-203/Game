@@ -19,3 +19,12 @@ body{
     text-align: center;
     font-size: 100px;
   }
+  button {
+  font-weight: 700;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: black;
+  border: 2px solid gray;
+  color: white;
+  border-radius: 4px;
+  }

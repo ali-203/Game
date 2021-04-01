@@ -151,6 +151,8 @@ const board_border = ' black';
          score += 5;
         
          document.getElementById('score').innerHTML = score;
+        
+      
        
         gen_food();
       } else {
@@ -158,4 +160,9 @@ const board_border = ' black';
        
         snake.pop();
       }
+
     }
+
+     function restart() {
+       location.reload();
+     }
